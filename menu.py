@@ -77,7 +77,7 @@ class MenuView(arcade.View):
         self.manager.draw()
 
     def on_show_view(self):
-        self.window.set_size(self.window.width, self.window.height)
+        self.window.set_size(1024, 1024)
 
     def on_hide_view(self):
         self.manager.disable()

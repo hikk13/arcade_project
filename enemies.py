@@ -14,7 +14,7 @@ class Enemy(arcade.Sprite):
         self.idle_texture = None
         self.textures = []
         self.texture_change_time = 0
-        self.texture_change_delay = 0.4
+        self.texture_change_delay = 0.2
 
     def update(self, delta_time: float = 1 / 60):
         if self.is_walking:
@@ -57,7 +57,7 @@ class Militiaman(Enemy):
             arcade.load_texture("images/enemies/militiaman_walk.png"),
             arcade.load_texture("images/enemies/militiaman_attack.png")
         ]
-        self.hp = 25
+        self.hp = 100
         self.speed = 15
         self.damage = 10
 
@@ -71,7 +71,7 @@ class Lancer(Enemy):
             arcade.load_texture("images/enemies/lancer_walk.png"),
             arcade.load_texture("images/enemies/lancer_attack.png")
         ]
-        self.hp = 50
+        self.hp = 150
         self.speed = 15
         self.damage = 15
 
@@ -85,7 +85,7 @@ class Knight(Enemy):
             arcade.load_texture("images/enemies/knight_walk.png"),
             arcade.load_texture("images/enemies/knight_attack.png")
         ]
-        self.hp = 75
+        self.hp = 175
         self.speed = 10
         self.damage = 25
 
@@ -99,6 +99,6 @@ class Ram(Enemy):
             arcade.load_texture("images/enemies/ram_walk.png"),
             arcade.load_texture("images/enemies/ram_attack.png")
         ]
-        self.hp = 100
+        self.hp = 200
         self.speed = 10
         self.damage = 40
