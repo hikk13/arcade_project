@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="45" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="asset" tilewidth="32" tileheight="32" tilecount="88" columns="8">
+  <image source="assets/SpriteSheet.png" width="256" height="352"/>
+ </tileset>
+ <layer id="1" name="ground" width="45" height="25">
+  <data encoding="base64" compression="zlib">
+   eJyzZWBgsKUBtqGRubTEo24edfOom0fdPOrmwYG9CbgZXX4w4qEQzvR0syuJ2JQIjGw+MephmFg30Cos7AZBXA+mtEEtPFpujLp51M2DC4+6edTNo24mDgMAfZgMUw==
+  </data>
+ </layer>
+ <layer id="2" name="decorations" width="45" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzNWNsKwjAM3Q/4IvigD744N9z/f6AUFwght9PYsQMSm6TJMU1TcJt8bMp3Tdcw7/K9y0WsvTjR2sttxYtAvF5Cv+5ynmwg3LW1Fy9bn1701B3loPlZe71zvCbzZTloeuQ3omdA/K2aevEeSX+Ek7c/qnWlL0b1rmVDevooIHOK+8j5pPlk4/4DXt4281fHjuLCPtq6Cv420XtVqWvEq8Jb9oR8V3sxkjPBe0vPDuL+KcY5os787llzA8FIzryerZdXw9ZT99Fzg/fzYnr9IPlX+8iKL6WWT85mZO8o3pGO6yM7xw1mlM8bcffsmh9SCw2e7xOMaXG6g/5ovsjfq5/8LrlG/ePZes4B6ePsneu9i9lejPZUOHDQ7JRz09IjZ2bNs+j+Zu63/L+ApPVuyXXmzJv8Ak5GHVg=
+  </data>
+ </layer>
+</map>
